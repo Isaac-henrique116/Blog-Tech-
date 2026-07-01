@@ -1,3 +1,21 @@
 header{
-    backgrund-color: #183c63
+    backgrund-color: #183c63;
+    color: #FFFFFF;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+main {
+    background-color: #FFFFFF;
+    color: #183c63;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+img {
+    width: 80px;
+    height: 80px;
 }
