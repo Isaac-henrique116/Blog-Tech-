@@ -2,7 +2,6 @@ body {
 font-family: Arial, Helvetica, sans-serif; /* Fonte universal herdada por todo o site */
 margin: 0;
 padding: 0;
-Remove margens padrão do navegador */
 }
 header {
 background-color: #b4cbc5; /* cor de fundo */
@@ -24,20 +23,20 @@ padding: 16px;
 }
 article {
 display: flex;
-margin-bottom: 60px; / Empurra o artigo de baixo, criando o espaço */
+margin-bottom: 60px; /*/
 }
 img{
 width: 150px; /* define a largura fixa da imagem */
 height: 150px; /* define a altura fixa da imagem */
 border: 2px solid #17048f; /* adiciona uma borda sólida de 2px na cor azul/roxa */
-display: block; / transforma a imagem em um bloco para aceitar margens verticais e quebra de linha */
+display: block; 
 margin: 0 auto; /* centraliza a imagem horizontalmente na tela */
 align-self: center;
 }
 .artigo-autor {
 font-weight: bold; /* deixa o texto em negrito */
 }
-.texto-curto {.artigo-autor {
+.texto-curto {
 font-weight: bold; /* deixa o texto em negrito */
 }
 .texto-curto {
